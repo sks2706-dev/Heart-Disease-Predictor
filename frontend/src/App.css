@@ -1,0 +1,240 @@
+/* Core Dark Canvas Matrix */
+body {
+  background-color: #0F172A; /* Deep obsidian black / matte navy */
+  color: #F8FAFC; /* Crisp bright white */
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: 100%;
+  max-width: 750px;
+  padding: 40px 20px;
+  box-sizing: border-box;
+}
+
+/* Premium High-Trust Medical Panel Console */
+.card {
+  position: relative;
+  background-color: #1E293B; /* Structural depth slate */
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 12px;
+  padding: 35px;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.3), 0 10px 10px -5px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+
+/* Elegant Top Accenting Ribbon */
+.glow-effect {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background: linear-gradient(90deg, #38BDF8, #6366f1, #38BDF8);
+}
+
+h2 {
+  margin: 0 0 4px 0;
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  color: #F8FAFC;
+}
+
+.subtitle {
+  color: #94A3B8; /* Soft clinical gray */
+  font-size: 14px;
+  font-weight: 400;
+  margin: 0 0 20px 0;
+}
+
+.divider {
+  border: 0;
+  height: 1px;
+  background: rgba(255, 255, 255, 0.06);
+  margin-bottom: 25px;
+}
+
+/* Structured Form Geometry */
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 18px;
+}
+
+.full-width {
+  grid-column: span 2;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  font-size: 11px;
+  font-weight: 600;
+  color: #94A3B8; /* Clinical gray label */
+  margin-bottom: 6px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+/* Premium Contrast Interface Fields */
+.form-group input, .form-group select {
+  background-color: #0F172A; /* Embedded dark canvas look */
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 6px;
+  padding: 11px 14px;
+  color: #F8FAFC;
+  font-size: 14px;
+  outline: none;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.form-group input:focus, .form-group select:focus {
+  border-color: #38BDF8; /* Clinical highlight cyan */
+  box-shadow: 0 0 0 1px #38BDF8;
+}
+
+/* Native Placeholder Harmonization */
+.form-group input::placeholder {
+  color: rgba(148, 163, 184, 0.35);
+  font-style: normal;
+}
+
+/* Protocol Safety Information Banner */
+.info-notice {
+  margin-top: 24px;
+  background-color: rgba(15, 23, 42, 0.4);
+  border-left: 3px solid #38BDF8;
+  padding: 14px 18px;
+  font-size: 12.5px;
+  color: #94A3B8;
+  line-height: 1.5;
+  border-radius: 0 8px 8px 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.02);
+  border-right: 1px solid rgba(255, 255, 255, 0.02);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.02);
+}
+
+.info-notice a {
+  color: #38BDF8;
+  text-decoration: none;
+  border-bottom: 1px dashed rgba(56, 189, 248, 0.4);
+  transition: border-color 0.15s ease;
+}
+
+.info-notice a:hover {
+  border-bottom-style: solid;
+}
+
+/* Executive Inference Action Button */
+.submit-btn {
+  background-color: #38BDF8; /* Primary medical cyan accent */
+  color: #0F172A; /* Deep navy text for legibility */
+  border: none;
+  border-radius: 6px;
+  padding: 14px;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 20px;
+  transition: opacity 0.15s ease, transform 0.1s ease;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+.submit-btn:hover {
+  opacity: 0.9;
+}
+
+.submit-btn:active {
+  transform: scale(0.99);
+}
+
+/* Precise Diagnostic Alarm Output Blocks */
+.result-box {
+  margin-top: 28px;
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid;
+  animation: telemetrySlide 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.result-box h3 {
+  margin: 0 0 6px 0;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+.result-box p {
+  margin: 0;
+  font-size: 13.5px;
+  line-height: 1.5;
+}
+
+/* Strict Medical Alarm State Rules */
+.danger {
+  background-color: rgba(239, 68, 68, 0.05);
+  border-color: rgba(239, 68, 68, 0.2);
+  color: #EF4444; /* Strict Crimson Warning Alert */
+}
+
+.success {
+  background-color: rgba(16, 185, 129, 0.05);
+  border-color: rgba(16, 185, 129, 0.2);
+  color: #10B981; /* Strict Medical Green Safe Metric */
+}
+
+@keyframes telemetrySlide {
+  from { opacity: 0; transform: translateY(6px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Responsive Structural Refinement */
+@media (max-width: 600px) {
+  .form-grid {
+    grid-template-columns: 1fr;
+  }
+  .full-width {
+    grid-column: span 1;
+  }
+  .card {
+    padding: 22px;
+  }
+}
+/* Injector Testing Control Button */
+.demo-btn {
+  background-color: rgba(56, 189, 248, 0.08);
+  color: #38BDF8;
+  border: 1px solid rgba(56, 189, 248, 0.25);
+  border-radius: 6px;
+  padding: 6px 12px;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.demo-btn:hover {
+  background-color: rgba(56, 189, 248, 0.15);
+  border-color: #38BDF8;
+}
+
+@media (max-width: 550px) {
+  .card > div:first-of-type {
+    flex-direction: column;
+    align-items: flex-start !important;
+    gap: 10px;
+  }
+}
