@@ -114,7 +114,7 @@ function App() {
       thal: finalThal
     };
 
-    fetch('http://127.0.0.1:8000/predict', {
+    fetch('https://heart-disease-backend-131h.onrender.com/predict', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(payload)
